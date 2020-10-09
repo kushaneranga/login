@@ -6,7 +6,7 @@ print(random_password)
 username = "satan98"
 password = "4144835"
 user_name = input("please enter your username: ")
-x_password = int(input("Please enter x-password: "))
+x_password = input("Please enter x-password: ")
 if user_name == username and x_password == random_password:
     print("HI")
 else:
